@@ -17,3 +17,5 @@ It allows read and write predefined values, currently:
 4) some 32 bit variable
 
 Variables have predefined length that must meet. 
+
+TWI is sensitive to noise often with fatal (hang) effect.
