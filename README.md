@@ -9,6 +9,7 @@ To flash arduino use arduino IDE. Tested with "Blue Pill" (stm32f103c8t6) and "A
 To run Linux app type 'lua prog.lua'. It needs moonfltk ( https://github.com/stetre/moonfltk ).
 
 It allows read and write predefined values, currently:
+
 0) some 16 bit variable
 1) ADC (ADC is running as differential with 20x amplification on PA0 and PA1)
 2) some 16 bit variable
