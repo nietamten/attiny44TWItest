@@ -2,7 +2,7 @@ TWI librarfy is from TinyWireS ( https://github.com/nadavmatalon/TinyWireS ).
 Makefile is from VUSB ( https://github.com/obdev/v-usb ).
 
 Attiny44 was connected to arduino with TWI and arduino was conneced to Linux laptop with USB.
-Only one attiny was testes at same time.
+Only one attiny was tested at same time.
 
 To flash attiny connect usbasp programmer and type 'make flash'.
 To flash arduino use arduino IDE. Tested with "Blue Pill" (stm32f103c8t6) and "Arduino pro micro" (Atmega32U4).
