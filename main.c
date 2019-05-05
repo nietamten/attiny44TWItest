@@ -24,9 +24,9 @@ uint8_t regSizes[] =	{	2,		2,		2,		1,		4	}; //max 4
 
 void usiRequest() 
 {
+	uint32_t v = *((uint32_t*) (regs[addr]));
 	for(uint8_t i=regSizes[addr];i>0;i--)
 	{
-		uint32_t v = *((uint32_t*) (regs[addr]));
 		usiTwiTransmitByte(v>>((i-1)*8));
 	}
 	addr = 0;
